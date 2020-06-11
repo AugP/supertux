@@ -44,6 +44,8 @@ endif(COMMAND cmake_policy)
 
 project(SUPERTUX)
 
+vcpkg_install_packages()
+
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
